@@ -71,7 +71,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.1</version>
+			<version>3.12.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -390,8 +390,8 @@ This license is based on the Apache Software License, version 1.1.</extractedTex
            				<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
              					<mainClass>org.spdx.tools.Main</mainClass>
            				</transformer>
-           				<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
-           				<transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer" />
+           				<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+           				<transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer"/>
            				<transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer">
              					<addHeader>false</addHeader>
              				</transformer>
